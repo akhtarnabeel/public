@@ -1,7 +1,6 @@
 __author__ = 'Nabeel'
 
-import sys, getopt, os, time, argparse
-import matplotlib.pyplot as plt
+import os, time, argparse
 
 def main():
     pauseTime = 0.2
