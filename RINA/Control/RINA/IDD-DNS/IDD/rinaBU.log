@@ -1,0 +1,9 @@
+0    main       INFO  2017-06-06 19:07:53381 rina.config.RINAConfig   Configuration file: idd.properties loaded
+ 2    main       INFO  2017-06-06 19:07:53383 rina.config.RINAConfig   IDD local port is: 58881
+ 2    main       INFO  2017-06-06 19:07:53383 rina.config.RINAConfig   IDD name is: localhost
+ 3    Thread-0   INFO  2017-06-06 19:07:53384 rina.idd.IDDProcess   IDD Process started.
+ 0    main       INFO  2017-06-06 19:07:59799 rina.config.RINAConfig   Configuration file: idd.properties loaded
+ 1    main       INFO  2017-06-06 19:07:59800 rina.config.RINAConfig   IDD local port is: 58881
+ 2    main       INFO  2017-06-06 19:07:59801 rina.config.RINAConfig   IDD name is: localhost
+ 2    Thread-0   INFO  2017-06-06 19:07:59801 rina.idd.IDDProcess   IDD Process started.
+ 

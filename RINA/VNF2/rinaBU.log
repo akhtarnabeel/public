@@ -1,0 +1,37 @@
+0    main       INFO  2017-06-06 19:09:00172 rina.config.RINAConfig   Configuration file: VNF2.properties loaded
+ 1    main       DEBUG 2017-06-06 19:09:00173 rina.config.RINAConfig   node name is VNF2
+ 1    main       INFO  2017-06-06 19:09:00173 rina.config.RINAConfig   IPC.1.configurationFile is ipcVNF2.properties
+ 1    main       INFO  2017-06-06 19:09:00173 rina.config.RINAConfig   IPC.1.ipcName is BostonU
+ 1    main       INFO  2017-06-06 19:09:00173 rina.config.RINAConfig   IPC.1.instance is 3
+ 2    main       INFO  2017-06-06 19:09:00174 rina.config.RINAConfig   IPC.1.DIF is DIF1
+ 4    main       INFO  2017-06-06 19:09:00176 rina.config.RINAConfig   Configuration file: ipcVNF2.properties loaded
+ 5    main       INFO  2017-06-06 19:09:00177 rina.config.RINAConfig   IPCName: BostonU
+ 5    main       INFO  2017-06-06 19:09:00177 rina.config.RINAConfig   The name of the DIF that is going to join  is: DIF1
+ 6    main       INFO  2017-06-06 19:09:00178 rina.config.RINAConfig   IPCInstance: 3
+ 8    main       INFO  2017-06-06 19:09:00180 rina.config.RINAConfig   User name is: BU
+ 8    main       INFO  2017-06-06 19:09:00180 rina.config.RINAConfig   Password is: BU
+ 14   main       INFO  2017-06-06 19:09:00186 rina.irm.util.WireManager   Wire Manager is inited.
+ 15   main       INFO  2017-06-06 19:09:00187 rina.config.RINAConfig   DNSName: ______
+ 16   main       INFO  2017-06-06 19:09:00188 rina.config.RINAConfig   DNSPort: 58880
+ 16   main       INFO  2017-06-06 19:09:00188 rina.config.RINAConfig   TCPPort: 58884
+ 21   main       ERROR 2017-06-06 19:09:00193 rina.tcp.TCPFlowManager   ______: Name or service not known
+ 22   main       ERROR 2017-06-06 19:09:00194 rina.tcp.TCPFlowManager   BostonU3:Registration to DNS failed. Process stopped
+ 0    main       INFO  2017-06-06 19:09:06186 rina.config.RINAConfig   Configuration file: VNF2.properties loaded
+ 1    main       DEBUG 2017-06-06 19:09:06187 rina.config.RINAConfig   node name is VNF2
+ 1    main       INFO  2017-06-06 19:09:06187 rina.config.RINAConfig   IPC.1.configurationFile is ipcVNF2.properties
+ 1    main       INFO  2017-06-06 19:09:06187 rina.config.RINAConfig   IPC.1.ipcName is BostonU
+ 2    main       INFO  2017-06-06 19:09:06188 rina.config.RINAConfig   IPC.1.instance is 3
+ 2    main       INFO  2017-06-06 19:09:06188 rina.config.RINAConfig   IPC.1.DIF is DIF1
+ 4    main       INFO  2017-06-06 19:09:06190 rina.config.RINAConfig   Configuration file: ipcVNF2.properties loaded
+ 6    main       INFO  2017-06-06 19:09:06192 rina.config.RINAConfig   IPCName: BostonU
+ 6    main       INFO  2017-06-06 19:09:06192 rina.config.RINAConfig   The name of the DIF that is going to join  is: DIF1
+ 6    main       INFO  2017-06-06 19:09:06192 rina.config.RINAConfig   IPCInstance: 3
+ 8    main       INFO  2017-06-06 19:09:06194 rina.config.RINAConfig   User name is: BU
+ 8    main       INFO  2017-06-06 19:09:06194 rina.config.RINAConfig   Password is: BU
+ 14   main       INFO  2017-06-06 19:09:06200 rina.irm.util.WireManager   Wire Manager is inited.
+ 15   main       INFO  2017-06-06 19:09:06201 rina.config.RINAConfig   DNSName: ______
+ 16   main       INFO  2017-06-06 19:09:06202 rina.config.RINAConfig   DNSPort: 58880
+ 16   main       INFO  2017-06-06 19:09:06202 rina.config.RINAConfig   TCPPort: 58884
+ 21   main       ERROR 2017-06-06 19:09:06207 rina.tcp.TCPFlowManager   ______: Name or service not known
+ 21   main       ERROR 2017-06-06 19:09:06207 rina.tcp.TCPFlowManager   BostonU3:Registration to DNS failed. Process stopped
+ 

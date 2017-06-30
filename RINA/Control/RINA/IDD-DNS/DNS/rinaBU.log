@@ -1,0 +1,5 @@
+0    main       INFO  2017-06-06 19:07:54380 rina.config.RINAConfig   Configuration file: dns.properties loaded
+ 2    Thread-0   INFO  2017-06-06 19:07:54382 rina.tcp.dns.DNSProcess   DNS Process started.
+ 0    main       INFO  2017-06-06 19:08:00807 rina.config.RINAConfig   Configuration file: dns.properties loaded
+ 1    Thread-0   INFO  2017-06-06 19:08:00808 rina.tcp.dns.DNSProcess   DNS Process started.
+ 
