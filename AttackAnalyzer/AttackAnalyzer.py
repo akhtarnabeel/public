@@ -87,6 +87,7 @@ def main():
 
         except:
             print 'Error Accessing file, running it again!'
+            attacker_list = []
 
 
 if __name__ == "__main__":
