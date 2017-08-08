@@ -45,8 +45,15 @@ def main():
             i=0
             while i < len(alerts):
                 line = alerts[i]
-                #print line
+                
+                # for icmp packets
                 if '-> 10.10.1.5 ICMP' in line:
+                    attackerIP = line.split(' ')[0]
+                    if attackerIP not in attacker_list:
+                        attacker_list.append(attackerIP)
+            
+                # for port scanning
+                elif '(portscan)' in line:
                     attackerIP = line.split(' ')[0]
                     if attackerIP not in attacker_list:
                         attacker_list.append(attackerIP)
