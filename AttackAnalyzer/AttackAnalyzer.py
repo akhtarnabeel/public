@@ -20,24 +20,24 @@ def main():
     # print the name of input file
     print inputFile
 
-
-    # check if file exists, otherwise wait for sometime and try again!
-    while(True):
-        ans = os.path.isfile(inputFile)
-
-        # if file found, then proceed. Otherwise keep waiting
-        if ans == 1:
-            break
-        else:
-            print 'Snort alert file does not exists at ',inputFile, '\nChecking again...'
-            time.sleep(pauseTime)
-
-    snort_alert_f = open(inputFile, 'r')
-    snort_alert = snort_alert_f.read()
-    snort_alert_f.close()
-
     while(True):
         try:
+
+            # check if file exists, otherwise wait for sometime and try again!
+            while (True):
+                ans = os.path.isfile(inputFile)
+
+                # if file found, then proceed. Otherwise keep waiting
+                if ans == 1:
+                    break
+                else:
+                    print 'Snort alert file does not exists at ', inputFile, '\nChecking again...'
+                    time.sleep(pauseTime)
+
+            snort_alert_f = open(inputFile, 'r')
+            snort_alert = snort_alert_f.read()
+            snort_alert_f.close()
+
             # read the file and if there is anything, add to alert.txt file
             attacker_list = []
             alerts = snort_alert.split('\n')
@@ -66,8 +66,6 @@ def main():
             attackerFile = open('/tmp/attacker.txt','w')
             attackerFile.write('\n'.join(attacker_list))
             attackerFile.close()
-
-
 
             # check if the file has changed and if it has changed, do the same
             while True:
