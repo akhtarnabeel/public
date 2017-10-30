@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget http://csr.bu.edu/rina/grw-bu2016/nfv_ryu/snort/snort.conf
+wget https://raw.githubusercontent.com/akhtarnabeel/public/master/Snort/snort.conf
 
 sudo mv snort.conf /etc/snort
 
