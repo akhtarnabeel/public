@@ -74,8 +74,8 @@ print ip_dst, ip_s1, ip_s2, controller_type, file_attackerList, file_path_pi
 
 
 
-idle_to = 1
-hard_to = 1
+idle_to = 4
+hard_to = 4
 
 
 vnf_port = vnf1_interface
