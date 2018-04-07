@@ -1,2 +1,0 @@
-alert icmp any any -> 10.10.1.5 any (msg:"ICMP traffic found to Destination";sid:1000001;) 
-
